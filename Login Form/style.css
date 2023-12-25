@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #454545;
+}
+.main {
+  max-width: 50vw;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box {
+  background-color: rgba(36, 244, 244, 0.7);
+  padding: 30px;
+  width: 100%;
+}
+.box > span {
+  display: block;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+input {
+  padding: 10px 5px;
+  border-radius: 5px;
+  border: none;
+}
+button {
+  padding: 10px 30px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+@media screen and (max-width: 425px) {
+  .main {
+    max-width: 95vw;
+  }
+  .box {
+    padding: 10px;
+  }
+}
